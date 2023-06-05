@@ -3,9 +3,14 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 
+import { UsdInrPipe } from './pipes/usd-inr.pipe';
+import { RedElDirective } from './red-el.directive';
+
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    UsdInrPipe,
+    RedElDirective
   ],
   imports: [
     BrowserModule
